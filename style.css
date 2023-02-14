@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.invert{
+    filter:invert();
+}
+
+/********************  Utility classes **************************/ 
+
+.background{
+    background:rgb(0,0,0,0.7) url('pokerbackground.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.white{
+    color:white
+}
+.center{
+    text-align: center;
+}
+.large{
+    font-size: 3rem;
+}
+.medium{
+    font-size:2rem;
+}
+.smmed{
+    font-size: 1.5rem;
+}
+.small{
+    font-size: 0.9rem;
+}
+.round{
+    border-radius: 50%;
+}
+.bgbtn{
+    padding: 5px 20px;
+    margin:20px 20px;
+    border-radius: 5px;
+    border:2px solid white;
+    background: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    
+}
+.smbtn{
+    padding: 3px 7px;
+    background: none;
+    border:2px solid white;
+    border-radius: 5px;
+
+}
+.bgbtn:hover{
+    color: black;
+    background-color: white;
+
+}
+.smbtn:hover{
+    color: black;
+    background-color: white;
+}
+.cardimg{
+    height: 250px;
+    width:300px;
+    padding: 10px;
+}
+.cardcon{
+    display: inline-block;
+    width:70%;
+
+
+}
+.cards{
+    padding:20px;
+}
+
+
+/* Navbar designing */
+
+.burger{
+    display:none;
+    position:fixed;
+    right:10px;
+    top:5px;
+    background: none;
+}
+.line{
+    width:33px;
+    height:4px;
+    margin:5px 1px;
+    background-color:white;
+}
+.navbar{
+    /* background-color: rgb(67, 62, 62); */
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    position: sticky;
+    top:0;
+    z-index: 2;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+
+}
+.navitems a{
+    text-decoration: none;
+    color:white;
+    padding:5px 20px;
+
+}
+.navitems a:hover{
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+ .navitems{
+    list-style: none;
+}
+.logophoto{
+    display:block;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    /* border:2px solid black; */
+    /* padding:5px 5px; */
+}
+.logo{
+    padding:4px 20px;
+}
+/* .searchicon{
+    align-self: center;
+    padding-left:50%; 
+    
+}
+.searchbar{
+    border-radius: 8px;
+} */
+
+/**********************Section 1 ************************/
+
+
+.introsection{
+    height:80vh;
+    width:100%;
+    /* display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center; */
+}
+.introcon{
+    /* width:100%;
+    display:block;
+    padding:40px 100px; */
+    padding: 54px 185px;
+}
+.first-half{
+    display: inline-block;
+    text-align: center;
+    /* display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; */
+    width:50vw;
+}
+.second-half{
+    display:inline-block;
+    padding: 0px 32px;
+    z-index: 1;
+}
+.bglogo{
+    height: 200px;
+    width: 200px;
+   
+}
+
+
+/********************** Section main  *******************/
+
+.main{
+    width:100vw;
+    /* height:100vh; */
+}
+
+
+/* Card Designing */
+.cardhd{
+    text-align: center;
+    padding: 10px;
+
+}
+.cardpara{
+    text-align: center;
+}
+.cardimgcon{
+    display: inline-block;
+    padding: 10px 40px;
+}
+.cardimg{
+    height: 250px;
+    width:300px;
+    padding: 0px;
+    /* padding: 10px 40px; */
+    border:2px solid black;
+    border-radius: 10px;
+}
+.cardcon{
+    display: inline-block;
+    width:70%;
+
+}
+.cards{
+    padding:30px 30px;
+}
+
+
+/******************** Last section Designing *****************/
+
+.lastsec{
+    background-color: rgb(188, 185, 185);
+    height:40vh;
+}
+.socialmediaicons{
+    height: 100px;
+    width:100px;
+    padding:20px;
+    cursor: pointer;
+}
+.socialiconcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:0px auto;
+}
+/* puzzle container */
+.puzzlecon{
+    border:2px solid black;
+    background:rgb(0,0,0,0.7) url('puzzback.png');
+    background-size: cover;
+    background-blend-mode: darken;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:30vh;
+    border-radius: 10px ;
+    margin:10px;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+.puzzbtn{
+    border:2px solid white;
+    background: none;
+    color: white;
+    border-radius:30px;
+}
+
+/******************** Footer Design ******************/
+.foot{
+    height:8vh;
+    background-color: rgb(35, 33, 33);
+    text-align: center;
+    color:white;
+
+}
+.foot p{
+    padding:15px;
+}
